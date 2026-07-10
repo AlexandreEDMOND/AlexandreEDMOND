@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" role="img" aria-labelledby="title desc">
+  <title id="title">Alexandre Edmond - AI Engineer profile</title>
+  <desc id="desc">Neofetch-style profile with an original ASCII robot and GitHub statistics.</desc>
+  <style>
+    text { font-family: Consolas, 'Liberation Mono', Menlo, monospace; font-size: 15.5px; white-space: pre; fill: #24292f; }
+    .ascii { fill: #24292f; font-size: 14.5px; }
+    .key { fill: #953800; }
+    .value { fill: #0a3069; }
+    .muted { fill: #c2cfde; }
+  </style>
+  <rect width="1000" height="530" rx="15" fill="#f6f8fa"/>
+  <text x="10" y="28" class="ascii" font-size="13">             .----------------.</text>
+  <text x="10" y="48" class="ascii" font-size="13">            /  A E // ROBOT   \</text>
+  <text x="10" y="68" class="ascii" font-size="13">           /--------------------\</text>
+  <text x="10" y="88" class="ascii" font-size="13">          |     .----------.     |</text>
+  <text x="10" y="108" class="ascii" font-size="13">          |    /  o      o  \    |</text>
+  <text x="10" y="128" class="ascii" font-size="13">          |   |      __      |   |</text>
+  <text x="10" y="148" class="ascii" font-size="13">          |   |    .----.    |   |</text>
+  <text x="10" y="168" class="ascii" font-size="13">          |    \   &#x27;----&#x27;   /    |</text>
+  <text x="10" y="188" class="ascii" font-size="13">          |     &#x27;----------&#x27;     |</text>
+  <text x="10" y="208" class="ascii" font-size="13">          &#x27;----------+-----------&#x27;</text>
+  <text x="10" y="228" class="ascii" font-size="13">              .------|------.</text>
+  <text x="10" y="248" class="ascii" font-size="13">         .---&#x27;       |       &#x27;---.</text>
+  <text x="10" y="268" class="ascii" font-size="13">        /      .-----+-----.      \</text>
+  <text x="10" y="288" class="ascii" font-size="13">       /      /      |      \      \</text>
+  <text x="10" y="308" class="ascii" font-size="13">      |      |   [  A E  ]   |      |</text>
+  <text x="10" y="328" class="ascii" font-size="13">      |      |               |      |</text>
+  <text x="10" y="348" class="ascii" font-size="13">      |      &#x27;-------+-------&#x27;      |</text>
+  <text x="10" y="368" class="ascii" font-size="13">      |              |              |</text>
+  <text x="10" y="388" class="ascii" font-size="13">      &#x27;------.       |       .------&#x27;</text>
+  <text x="10" y="408" class="ascii" font-size="13">             \      |      /</text>
+  <text x="10" y="428" class="ascii" font-size="13">              |_____|_____|</text>
+  <text x="10" y="448" class="ascii" font-size="13">             /_____/ \_____\</text>
+  <text x="10" y="468" class="ascii" font-size="13">            /_____/   \_____\</text>
+  <text x="10" y="488" class="ascii" font-size="13">           /_____/     \_____\</text>
+  <text x="10" y="508" class="ascii" font-size="13">          &#x27;-----&#x27;       &#x27;-----&#x27;</text>
+  <text x="350" y="30">- alexandre@edmond ---------------------------------------------</text>
+  <text x="350" y="56"><tspan class="muted">. </tspan><tspan class="key">Title</tspan>:<tspan class="muted"> ............... </tspan><tspan class="value">AI Engineer / Robot Learning / Embodied AI</tspan></text>
+  <text x="350" y="77"><tspan class="muted">. </tspan><tspan class="key">Location</tspan>:<tspan class="muted"> ............ </tspan><tspan class="value">Paris, France</tspan></text>
+  <text x="350" y="98"><tspan class="muted">. </tspan><tspan class="key">AI.Interests</tspan>:<tspan class="muted"> ........ </tspan><tspan class="value">Robot Learning, RL, Vision, LLM Agents</tspan></text>
+  <text x="350" y="119"><tspan class="muted">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="muted"> .. </tspan><tspan class="value">Python, C++, SQL, Bash, JavaScript</tspan></text>
+  <text x="350" y="140"><tspan class="muted">. </tspan><tspan class="key">Languages.AI</tspan>:<tspan class="muted"> ........ </tspan><tspan class="value">PyTorch, Transformers, OpenCV, NumPy</tspan></text>
+  <text x="350" y="161"><tspan class="muted">. </tspan><tspan class="key">Engineering</tspan>:<tspan class="muted"> ......... </tspan><tspan class="value">MLOps, FastAPI, Docker, GitHub Actions</tspan></text>
+  <text x="350" y="182"><tspan class="muted">. </tspan><tspan class="key">Robotics</tspan>:<tspan class="muted"> ............ </tspan><tspan class="value">Pepper, EMG, ManiSkill, DIY Robotics</tspan></text>
+  <text x="350" y="203"><tspan class="muted">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="muted"> ...... </tspan><tspan class="value">French, English</tspan></text>
+  <text x="350" y="242">- Current ------------------------------------------------------</text>
+  <text x="350" y="268"><tspan class="muted">. </tspan><tspan class="key">Current.Work</tspan>:<tspan class="muted"> ........ </tspan><tspan class="value">Imitation Learning, Embodied AI, Open ML</tspan></text>
+  <text x="350" y="290"><tspan class="muted">. </tspan><tspan class="key">Current.Project</tspan>:<tspan class="muted"> ..... </tspan><tspan class="value">ManiSkill Imitation Learning Lab</tspan></text>
+  <text x="350" y="332">- Selected Projects --------------------------------------------</text>
+  <text x="350" y="358"><tspan class="muted">. </tspan><tspan class="key">Projects.Robotics</tspan>:<tspan class="muted"> ... </tspan><tspan class="value">ManiSkill Lab, TonySpark</tspan></text>
+  <text x="350" y="380"><tspan class="muted">. </tspan><tspan class="key">Projects.RL</tspan>:<tspan class="muted"> ......... </tspan><tspan class="value">numpy-rl-racer, zero_to_skyjo</tspan></text>
+  <text x="350" y="402"><tspan class="muted">. </tspan><tspan class="key">Projects.AI</tspan>:<tspan class="muted"> ......... </tspan><tspan class="value">flechebench, TTS-GAN</tspan></text>
+  <text x="350" y="442">- GitHub Stats -------------------------------------------------</text>
+  <text x="350" y="470"><tspan class="muted">. </tspan><tspan class="key">Repos</tspan>:<tspan class="muted"> ........ </tspan><tspan class="value">14</tspan><tspan>  |  </tspan><tspan class="key">Stars</tspan>:<tspan class="muted"> ........... </tspan><tspan class="value">3</tspan></text>
+  <text x="350" y="494"><tspan class="muted">. </tspan><tspan class="key">Commits.12mo</tspan>:<tspan class="muted"> ... </tspan><tspan class="value">187</tspan><tspan>  |  </tspan><tspan class="key">Followers</tspan>:<tspan class="muted"> ....... </tspan><tspan class="value">9</tspan></text>
+</svg>

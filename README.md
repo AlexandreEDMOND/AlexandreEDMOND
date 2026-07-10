@@ -1,6 +1,6 @@
-<p align="center">
+<a href="https://github.com/AlexandreEDMOND">
   <picture>
-    <source media="(max-width: 600px)" srcset="./assets/profile-terminal-mobile.svg">
-    <img src="./assets/profile-terminal.svg" alt="Alexandre Edmond - AI Engineer profile" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark_mode.svg">
+    <img src="./assets/light_mode.svg" alt="Alexandre Edmond - AI Engineer profile" width="100%">
   </picture>
-</p>
+</a>

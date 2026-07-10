@@ -32,7 +32,7 @@ jobs:
 
       - name: Commit changed cards
         run: |
-          git add assets/profile-terminal.svg assets/profile-terminal-mobile.svg
+          git add assets/dark_mode.svg assets/light_mode.svg
           if git diff --staged --quiet; then
             exit 0
           fi
