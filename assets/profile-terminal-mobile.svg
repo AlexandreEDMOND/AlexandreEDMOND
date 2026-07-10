@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1100" viewBox="0 0 600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Alexandre Edmond - AI Engineer profile</title>
+  <desc id="desc">Mobile terminal-style profile card with an ASCII robot, engineering focus, and GitHub statistics.</desc>
+  <style>
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+    .muted { fill: #86909c; }
+    .label { fill: #79c7ff; }
+    .value { fill: #e6edf3; }
+    .accent { fill: #ff9d4d; }
+    .green { fill: #7ee787; }
+    .violet { fill: #c297ff; }
+    .leader { stroke: #4b5563; stroke-width: 1; stroke-dasharray: 2 5; }
+  </style>
+  <rect x="10" y="10" width="580" height="1080" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="11" y="11" width="578" height="44" rx="13" fill="#161b22"/>
+  <path d="M11 42V55H589V42" fill="#161b22"/>
+  <circle cx="34" cy="33" r="6" fill="#ff7b72"/>
+  <circle cx="54" cy="33" r="6" fill="#d29922"/>
+  <circle cx="74" cy="33" r="6" fill="#3fb950"/>
+  <text x="300" y="38" text-anchor="middle" class="mono muted" font-size="13">alexandre@github: ~</text>
+  <text x="28" y="82" class="mono green" font-size="12">       .--------.</text>
+  <text x="28" y="101" class="mono green" font-size="12">      /  o    o  \</text>
+  <text x="28" y="120" class="mono green" font-size="12">     |     __     |</text>
+  <text x="28" y="139" class="mono green" font-size="12">     |   .----.   |</text>
+  <text x="28" y="158" class="mono green" font-size="12"> .---|   | AE |   |---.</text>
+  <text x="28" y="177" class="mono green" font-size="12">/    |   &#x27;----&#x27;   |    \</text>
+  <text x="28" y="196" class="mono green" font-size="12">\___/------------\___/</text>
+  <text x="28" y="215" class="mono green" font-size="12">     /_|________|_\</text>
+  <text x="28" y="234" class="mono green" font-size="12">      _/ /    \ \_</text>
+  <text x="28" y="253" class="mono green" font-size="12">     /__/      \__\</text>
+  <text x="292" y="105" class="mono accent" font-size="23" font-weight="700">Alexandre Edmond</text>
+  <text x="292" y="132" class="mono violet" font-size="15">@AlexandreEDMOND</text>
+  <text x="292" y="168" class="mono value" font-size="15">AI Engineer</text>
+  <text x="292" y="191" class="mono value" font-size="15">Robot Learning</text>
+  <text x="292" y="214" class="mono value" font-size="15">Embodied AI</text>
+  <line x1="28" y1="278" x2="572" y2="278" stroke="#30363d"/>
+  <text x="34" y="309" class="mono label" font-size="15">Title</text>
+  <line x1="230" y1="304" x2="560" y2="304" class="leader"/>
+  <text x="52" y="332" class="mono value" font-size="15">AI Engineer | Robot Learning | Embodied AI</text>
+  <text x="34" y="357" class="mono label" font-size="15">Location</text>
+  <line x1="230" y1="352" x2="560" y2="352" class="leader"/>
+  <text x="52" y="380" class="mono value" font-size="15">Paris, France</text>
+  <text x="34" y="405" class="mono label" font-size="15">Languages.Programming</text>
+  <line x1="230" y1="400" x2="560" y2="400" class="leader"/>
+  <text x="52" y="428" class="mono value" font-size="15">Python, C++, SQL, Bash, JavaScript</text>
+  <text x="34" y="453" class="mono label" font-size="15">Languages.AI</text>
+  <line x1="230" y1="448" x2="560" y2="448" class="leader"/>
+  <text x="52" y="476" class="mono value" font-size="15">PyTorch, Transformers, OpenCV, NumPy</text>
+  <text x="34" y="501" class="mono label" font-size="15">AI.Interests</text>
+  <line x1="230" y1="496" x2="560" y2="496" class="leader"/>
+  <text x="52" y="524" class="mono value" font-size="15">Robot Learning, Reinforcement Learning, Computer Vision,</text>
+  <text x="52" y="544" class="mono value" font-size="15">LLM Agents</text>
+  <text x="34" y="569" class="mono label" font-size="15">Engineering</text>
+  <line x1="230" y1="564" x2="560" y2="564" class="leader"/>
+  <text x="52" y="592" class="mono value" font-size="15">MLOps, FastAPI, Docker, GitHub Actions</text>
+  <text x="34" y="617" class="mono label" font-size="15">Robotics</text>
+  <line x1="230" y1="612" x2="560" y2="612" class="leader"/>
+  <text x="52" y="640" class="mono value" font-size="15">Pepper, EMG Interfaces, ManiSkill, DIY Robotics</text>
+  <text x="34" y="665" class="mono label" font-size="15">Current.Work</text>
+  <line x1="230" y1="660" x2="560" y2="660" class="leader"/>
+  <text x="52" y="688" class="mono value" font-size="15">Imitation Learning, Embodied AI, Open-Source ML</text>
+  <text x="34" y="713" class="mono label" font-size="15">Current.Project</text>
+  <line x1="230" y1="708" x2="560" y2="708" class="leader"/>
+  <text x="52" y="736" class="mono value" font-size="15">ManiSkill Imitation Learning Lab</text>
+  <text x="34" y="761" class="mono label" font-size="15">Languages.Real</text>
+  <line x1="230" y1="756" x2="560" y2="756" class="leader"/>
+  <text x="52" y="784" class="mono value" font-size="15">French, English</text>
+  <line x1="28" y1="820" x2="572" y2="820" stroke="#30363d"/>
+  <text x="34" y="852" class="mono green" font-size="17" font-weight="700">GitHub Stats</text>
+  <rect x="34" y="870" width="260" height="62" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="46" y="894" class="mono muted" font-size="12">Public repos</text>
+  <text x="46" y="919" class="mono accent" font-size="19" font-weight="700">14</text>
+  <rect x="306" y="870" width="260" height="62" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="318" y="894" class="mono muted" font-size="12">Stars received</text>
+  <text x="318" y="919" class="mono accent" font-size="19" font-weight="700">3</text>
+  <rect x="34" y="945" width="260" height="62" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="46" y="969" class="mono muted" font-size="12">Followers</text>
+  <text x="46" y="994" class="mono accent" font-size="19" font-weight="700">9</text>
+  <rect x="306" y="945" width="260" height="62" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="318" y="969" class="mono muted" font-size="12">Contributions / 12 mo</text>
+  <text x="318" y="994" class="mono accent" font-size="19" font-weight="700">Unavailable</text>
+  <rect x="34" y="1020" width="532" height="62" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="46" y="1044" class="mono muted" font-size="12">Commits / 12 mo</text>
+  <text x="46" y="1069" class="mono accent" font-size="19" font-weight="700">Unavailable</text>
+</svg>
