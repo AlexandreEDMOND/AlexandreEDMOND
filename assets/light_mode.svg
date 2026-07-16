@@ -1,59 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" role="img" aria-labelledby="title desc">
-  <title id="title">Alexandre Edmond - AI Engineer profile</title>
-  <desc id="desc">Neofetch-style profile with an original ASCII robot and GitHub statistics.</desc>
-  <style>
-    text { font-family: Consolas, 'Liberation Mono', Menlo, monospace; font-size: 15.5px; white-space: pre; fill: #24292f; }
-    .ascii { fill: #24292f; font-size: 10px; }
-    .key { fill: #953800; }
-    .value { fill: #0a3069; }
-    .muted { fill: #c2cfde; }
-  </style>
-  <rect width="1000" height="530" rx="15" fill="#f6f8fa"/>
-  <text x="10" y="28" class="ascii">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
-  <text x="10" y="39" class="ascii">░░░░░░░░░░░░░░░░░░░▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
-  <text x="10" y="50" class="ascii">░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</text>
-  <text x="10" y="61" class="ascii">░░░░░░░░░░░░░░░░░░░░▒░░░░░▒▒▒░▒▒░░░░░░░░░░░░░░░░░░</text>
-  <text x="10" y="72" class="ascii">░░░░░░░░░░░░░░░░░░░▒▓▓███▓▓▒▓▓▒▒▒░░░░░░░░░░░░░░░░░</text>
-  <text x="10" y="83" class="ascii">░░░░░░░░░░░░░░░░▒▒▓▓▓███████▓▓▓▓░░░░░░░░░░░░░░░░░░</text>
-  <text x="10" y="94" class="ascii">▒▒▒▒▒▒▒▒▒▒░░▒▒░▒▓███▒▒▒▒▒▒▓███▓▓▓▒▒▒░░░░░░░░░░░░░░</text>
-  <text x="10" y="105" class="ascii">▒▒▒▒▒▒▒▒▒░░░░▒░░▓██▓▒▒▒▒▒▒▓▓▓▓███▓▒░░░░░░░░░░░░░░░</text>
-  <text x="10" y="116" class="ascii">▓▓▓▓▓▓▓▓▒▒▒░▒▓▒▒▓██▓▒▒▓▓░░▒▓▓▓▓███▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░</text>
-  <text x="10" y="127" class="ascii">▒▒▒▒▒▒▒▒▒▒░░░▒▒▒▓██▒░░░▒░░▒▒░░░█▓▓▒▓▓▓▓▓▓▒▒▒▒▒▒░░░</text>
-  <text x="10" y="138" class="ascii">▓▓▓▓▓▓▓▓▓▒░░░▓▓▓▓▓▓▓░░▒▒▒▓▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒</text>
-  <text x="10" y="149" class="ascii">▓▓▓▓▓▓▓▓▓▒░░▒▓▓▓▓▓▒░░░▒▒▒▒▓▓▒▒░▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒</text>
-  <text x="10" y="160" class="ascii">▓▓▓▓▓▓▓▓▓▒░░▒▓▓▓▓▓▒▓▓▒▒▒▒▒▒▒▒▒░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒</text>
-  <text x="10" y="171" class="ascii">▓▓▓▓▓▓▓▓▓▒░░▒▓▓▓▓▓▒▒▓▒▒▒▒▒▒▒▒▒░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░</text>
-  <text x="10" y="182" class="ascii">▓▓▓▓▓▓███▓▒▒▓▓▓▓▓▓▒▓▓▒▒▒▓▓▓▓▓▒▒▓██▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒</text>
-  <text x="10" y="193" class="ascii">▒▓▓▒▒▓██▓▒░░▒▓▓▓▓▓▒▓█▓▒▒░▒▒▒▒▒█▓▓█▓▓▓▓▓▓▓▓▒▓▓▓▒░░░</text>
-  <text x="10" y="204" class="ascii">▒▓▓▒▒▓▓▓▓▒░░▒▓▓▒▒▓▒▓██▒▒▒▒▒▒▒▓███▓▒▒▒▒▒▒▒▒▒▒▒▒▓▒░░</text>
-  <text x="10" y="215" class="ascii">▒▓▓▒▒▒▒▒▒▒░░▒▓▓▒▒▓████▓▒▒▒▒▒▓█████▓▒▒▓▓▓▓▓▓▓▓▒▒▒▒▓</text>
-  <text x="10" y="226" class="ascii">▒▒▒▒▒▒▒▒▒▒░░▒▓█████████▓▒▒▒██████████▓░▒▓▓▓▓▒░▒▒██</text>
-  <text x="10" y="237" class="ascii">▒▒▒▒▒▒▒▒▓▓▒▒▓▓██████████▓▓████████████▓▓▓▒▒▒░▒▒▓██</text>
-  <text x="10" y="248" class="ascii">▒▒▒▒▒▒▓█████████████████▓▓████████████████▓▒░▒▓▓██</text>
-  <text x="10" y="259" class="ascii">▒▒▒▒▒▓██████████████████████████████████████▓░▒▓██</text>
-  <text x="10" y="270" class="ascii">▓▓▓▓▓███████████████████▓████████████████████▓▒▒▒▓</text>
-  <text x="10" y="281" class="ascii">▒▒▒▒▒█████████████████████████████████████████░░░░</text>
-  <text x="10" y="292" class="ascii">░░░░▒█████████████████████████████████████████▒░░░</text>
-  <text x="10" y="303" class="ascii">▒▒▒▒▓█████████████████████████████████████████▒▒▒▒</text>
-  <text x="10" y="314" class="ascii">▒▒▒▒▒█████████████████████████████████████████▒░░░</text>
-  <text x="350" y="30">- alexandre@edmond ---------------------------------------------</text>
-  <text x="350" y="56"><tspan class="muted">. </tspan><tspan class="key">Title</tspan>:<tspan class="muted"> ............... </tspan><tspan class="value">AI Engineer / Robot Learning / Embodied AI</tspan></text>
-  <text x="350" y="77"><tspan class="muted">. </tspan><tspan class="key">Location</tspan>:<tspan class="muted"> ............ </tspan><tspan class="value">Paris, France</tspan></text>
-  <text x="350" y="98"><tspan class="muted">. </tspan><tspan class="key">AI.Interests</tspan>:<tspan class="muted"> ........ </tspan><tspan class="value">Robot Learning, RL, Vision, LLM Agents</tspan></text>
-  <text x="350" y="119"><tspan class="muted">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="muted"> .. </tspan><tspan class="value">Python, C++, SQL, Bash, JavaScript</tspan></text>
-  <text x="350" y="140"><tspan class="muted">. </tspan><tspan class="key">Languages.AI</tspan>:<tspan class="muted"> ........ </tspan><tspan class="value">PyTorch, Transformers, OpenCV, NumPy</tspan></text>
-  <text x="350" y="161"><tspan class="muted">. </tspan><tspan class="key">Engineering</tspan>:<tspan class="muted"> ......... </tspan><tspan class="value">MLOps, FastAPI, Docker, GitHub Actions</tspan></text>
-  <text x="350" y="182"><tspan class="muted">. </tspan><tspan class="key">Robotics</tspan>:<tspan class="muted"> ............ </tspan><tspan class="value">Pepper, EMG, ManiSkill, DIY Robotics</tspan></text>
-  <text x="350" y="203"><tspan class="muted">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="muted"> ...... </tspan><tspan class="value">French, English</tspan></text>
-  <text x="350" y="242">- Current ------------------------------------------------------</text>
-  <text x="350" y="268"><tspan class="muted">. </tspan><tspan class="key">Current.Work</tspan>:<tspan class="muted"> ........ </tspan><tspan class="value">Imitation Learning, Embodied AI, Open ML</tspan></text>
-  <text x="350" y="290"><tspan class="muted">. </tspan><tspan class="key">Current.Project</tspan>:<tspan class="muted"> ..... </tspan><tspan class="value">ManiSkill Imitation Learning Lab</tspan></text>
-  <text x="350" y="332">- Selected Projects --------------------------------------------</text>
-  <text x="350" y="358"><tspan class="muted">. </tspan><tspan class="key">Projects.Robotics</tspan>:<tspan class="muted"> ... </tspan><tspan class="value">ManiSkill Lab, TonySpark</tspan></text>
-  <text x="350" y="380"><tspan class="muted">. </tspan><tspan class="key">Projects.RL</tspan>:<tspan class="muted"> ......... </tspan><tspan class="value">numpy-rl-racer, zero_to_skyjo</tspan></text>
-  <text x="350" y="402"><tspan class="muted">. </tspan><tspan class="key">Projects.AI</tspan>:<tspan class="muted"> ......... </tspan><tspan class="value">flechebench, TTS-GAN</tspan></text>
-  <text x="350" y="442">- GitHub Stats -------------------------------------------------</text>
-  <text x="350" y="470"><tspan class="muted">. </tspan><tspan class="key">Repos</tspan>:<tspan class="muted"> ........ </tspan><tspan class="value">15</tspan><tspan>  |  </tspan><tspan class="key">Stars</tspan>:<tspan class="muted"> ........... </tspan><tspan class="value">3</tspan></text>
-  <text x="350" y="494"><tspan class="muted">. </tspan><tspan class="key">Commits.12mo</tspan>:<tspan class="muted"> ... </tspan><tspan class="value">202</tspan><tspan>  |  </tspan><tspan class="key">Followers</tspan>:<tspan class="muted"> ....... </tspan><tspan class="value">9</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Alexandre Edmond</title>
+  <desc id="desc">AI Engineer focused on robotics and embodied AI, based in Paris.</desc>
+  <rect width="1000" height="260" rx="16" fill="#f6f8fa"/>
+  <circle cx="92" cy="130" r="42" fill="none" stroke="#0969da" stroke-width="2"/>
+  <path d="M72 130h40M92 110v40" stroke="#0969da" stroke-width="2" stroke-linecap="round"/>
+  <text x="174" y="107" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="700">Alexandre Edmond</text>
+  <text x="174" y="151" fill="#1f2328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">AI Engineer · Robotics &amp; Embodied AI</text>
+  <text x="174" y="190" fill="#656d76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">Paris, France</text>
 </svg>
