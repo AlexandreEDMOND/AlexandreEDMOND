@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the minimal profile card used by the README."""
+"""Generate the animated profile header used by the README."""
 
 from pathlib import Path
 
@@ -8,22 +8,61 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIR = ROOT / "assets"
 
 THEMES = {
-    "dark": {"background": "#161b22", "text": "#f0f6fc", "muted": "#8b949e", "accent": "#58a6ff"},
-    "light": {"background": "#f6f8fa", "text": "#1f2328", "muted": "#656d76", "accent": "#0969da"},
+    "dark": {"bone": "#f0f6fc", "rule": "#30363d", "muted": "#8b949e", "dim": "#6e7681", "accent": "#58a6ff"},
+    "light": {"bone": "#1f2328", "rule": "#d0d7de", "muted": "#656d76", "dim": "#8c959f", "accent": "#0969da"},
 }
 
 
 def render_card(theme: dict[str, str]) -> str:
     return f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+<svg viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Alexandre Edmond</title>
-  <desc id="desc">AI Engineer focused on robotics and embodied AI, based in Paris.</desc>
-  <rect width="1000" height="260" rx="16" fill="{theme["background"]}"/>
-  <circle cx="92" cy="130" r="42" fill="none" stroke="{theme["accent"]}" stroke-width="2"/>
-  <path d="M72 130h40M92 110v40" stroke="{theme["accent"]}" stroke-width="2" stroke-linecap="round"/>
-  <text x="174" y="107" fill="{theme["text"]}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="700">Alexandre Edmond</text>
-  <text x="174" y="151" fill="{theme["text"]}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">AI Engineer · Robotics &amp; Embodied AI</text>
-  <text x="174" y="190" fill="{theme["muted"]}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">Paris, France</text>
+  <desc id="desc">Animated profile header for Alexandre Edmond, AI Engineer in Paris focused on robot learning and embodied AI.</desc>
+  <style>
+    .mono {{ font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }}
+    .draw {{ stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }}
+    @keyframes draw {{ to {{ stroke-dashoffset: 0; }} }}
+    .rise {{ opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }}
+    @keyframes rise {{ from {{ opacity: 0; transform: translateY(12px); }} to {{ opacity: 1; transform: translateY(0); }} }}
+    .fade {{ opacity: 0; animation: fade .7s ease forwards; }}
+    @keyframes fade {{ to {{ opacity: 1; }} }}
+    .a1 {{ animation-delay: .2s; }} .a2 {{ animation-delay: .5s; }} .a3 {{ animation-delay: .9s; }} .a4 {{ animation-delay: 1.2s; }} .a5 {{ animation-delay: 1.4s; }} .a6 {{ animation-delay: 1.7s; }}
+    @media (prefers-reduced-motion: reduce) {{
+      .draw, .rise, .fade {{ animation: none; }}
+      .draw {{ stroke-dashoffset: 0; }} .rise, .fade {{ opacity: 1; }}
+    }}
+  </style>
+
+  <line class="draw a1" x1="48" y1="58" x2="952" y2="58" stroke="{theme["rule"]}" stroke-width="1"/>
+  <g class="fade a1">
+    <text class="mono" fill="{theme["muted"]}" x="48" y="44" font-size="11" letter-spacing="3.5">PORTFOLIO — INDEX Nº 001</text>
+    <text class="mono" fill="{theme["muted"]}" x="952" y="44" font-size="11" letter-spacing="3.5" text-anchor="end">PARIS, FR — 48.86° N</text>
+  </g>
+
+  <g class="rise a2">
+    <text class="mono" fill="{theme["bone"]}" x="46" y="176" font-size="72" letter-spacing="-2">Alexandre Edmond</text>
+  </g>
+  <g class="fade a3">
+    <text class="mono" fill="{theme["muted"]}" x="48" y="214" font-size="19">AI Engineer — Robot Learning &amp; Embodied AI.</text>
+  </g>
+
+  <g class="fade a4">
+    <text class="mono" fill="{theme["dim"]}" x="48" y="274" font-size="12.5" letter-spacing="1">focus  ▸</text>
+    <text class="mono" fill="{theme["accent"]}" x="128" y="274" font-size="12.5" letter-spacing="1">robot learning · reinforcement learning · computer vision · LLM agents</text>
+  </g>
+  <g class="fade a5">
+    <text class="mono" fill="{theme["dim"]}" x="48" y="300" font-size="12.5" letter-spacing="1">open to research · collaboration</text>
+  </g>
+
+  <line class="draw a5" x1="48" y1="342" x2="952" y2="342" stroke="{theme["rule"]}" stroke-width="1"/>
+  <g class="fade a6">
+    <text class="mono" fill="{theme["muted"]}" x="48" y="374" font-size="11.5" letter-spacing="3">ROBOT LEARNING</text>
+    <text class="mono" fill="{theme["accent"]}" x="220" y="374" font-size="11.5">·</text>
+    <text class="mono" fill="{theme["muted"]}" x="250" y="374" font-size="11.5" letter-spacing="3">EMBODIED AI</text>
+    <text class="mono" fill="{theme["accent"]}" x="395" y="374" font-size="11.5">·</text>
+    <text class="mono" fill="{theme["muted"]}" x="425" y="374" font-size="11.5" letter-spacing="3">REINFORCEMENT LEARNING</text>
+    <text class="mono" fill="{theme["muted"]}" x="952" y="374" font-size="11.5" letter-spacing="3" text-anchor="end">PARIS — FRANCE</text>
+  </g>
 </svg>
 '''
 
